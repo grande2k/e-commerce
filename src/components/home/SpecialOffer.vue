@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="special-offer__image">
-                    <img :src="offer.image" alt="">
+                    <img :src="images[offer.image]" alt="">
                 </div>
             </div>
         </div>
@@ -18,6 +18,7 @@
 </template>
 
 <script>
+    import { filename } from 'pathe/utils';
     import CountdownTimer from '@/components/CountdownTimer.vue';
     import CustomButton from '@/components/ui/CustomButton.vue';
 
@@ -31,7 +32,17 @@
         components: {
             CountdownTimer,
             CustomButton
-        }
+        },
+        setup() {
+            const glob = import.meta.glob('@/assets/images/*.png', { eager: true });
+            const images = Object.fromEntries(
+                Object.entries(glob).map(([key, value]) => [filename(key), value.default])
+            );
+
+            return {
+                images,
+            };
+        },
     }
 </script>
 

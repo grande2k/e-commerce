@@ -47,7 +47,7 @@
                     title: "Enhance Your Music Experience",
                     endDate: "2024-12-31T23:59:59",
                     path: "/electronics/jbl",
-                    image: "/src/assets/images/jbl.png"
+                    image: "jbl"
                 }
             }
         },
