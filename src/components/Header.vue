@@ -61,6 +61,7 @@
         methods: {
             toggleBurger() {
                 this.isBurgerActive = !this.isBurgerActive;
+                this.isBurgerActive ? document.body.classList.add("lock") : document.body.classList.remove("lock");
             }
         },
         components: {

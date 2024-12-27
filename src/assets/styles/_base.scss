@@ -25,6 +25,9 @@ body {
     position: relative;
     min-width: 320px;
     background: $white;
+    &.lock {
+        overflow: hidden;
+    }
 }
 
 ul {
