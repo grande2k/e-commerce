@@ -1,0 +1,56 @@
+@import "fonts";
+@import "libs";
+@import "base";
+@import "vars";
+@import "mixins";
+
+.logo {
+    p {
+        font-family: $accentFontFamily;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0;
+        line-height: 1;
+    }
+}
+
+.home__slider .swiper-pagination {
+    @include flex-center;
+    gap: 0.75rem;
+    position: absolute;
+    bottom: 0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 100%;
+    @media (max-width: 700px) {
+        bottom: 0.5rem;
+        gap: 0.5rem;
+    }
+    &-bullet {
+        border-radius: 50%;
+        min-width: 0.75rem;
+        width: 0.75rem;
+        height: 0.75rem;
+        background-color: rgba($color: $white, $alpha: 0.5);
+        cursor: pointer;
+        &.swiper-pagination-bullet-active {
+            background-color: $primary;
+            border: 2px solid $white;
+        }
+        @media (max-width: 700px) {
+            width: 0.5rem;
+            height: 0.5rem;
+            min-width: 0.5rem;
+            &.swiper-pagination-bullet-active {
+                border-width: 1px;
+            }
+        }
+    }
+}
+
+.empty-message {
+    font-size: 500;
+}
+
+@import "media";

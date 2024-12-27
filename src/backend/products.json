@@ -1,0 +1,194 @@
+[
+  {
+    "id": 0,
+    "title": "HAVIT HV-G92 Gamepad",
+    "image_url": "gamepad",
+    "price": 160,
+    "discount": 40,
+    "reviewsCount": 88,
+    "rating": 5,
+    "type": "on-sale"
+  },
+  {
+    "id": 1,
+    "title": "AK-900 Wired Keyboard",
+    "image_url": "keyboard",
+    "price": 1160,
+    "discount": 35,
+    "reviewsCount": 75,
+    "rating": 4,
+    "type": "on-sale"
+  },
+  {
+    "id": 2,
+    "title": "IPS LCD Gaming Monitor",
+    "image_url": "monitor",
+    "price": 400,
+    "discount": 30,
+    "reviewsCount": 99,
+    "rating": 5,
+    "type": "on-sale"
+  },
+  {
+    "id": 3,
+    "title": "S-Series Comfort Chair ",
+    "image_url": "chair",
+    "price": 120,
+    "discount": 25,
+    "reviewsCount": 109,
+    "rating": 4,
+    "type": "on-sale"
+  },
+  {
+    "id": 4,
+    "title": "S-Series Comfort Chair+",
+    "image_url": "chair",
+    "price": 150,
+    "discount": 20,
+    "reviewsCount": 40,
+    "rating": 5,
+    "type": "on-sale"
+  },
+  {
+    "id": 5,
+    "title": "The north coat",
+    "image_url": "coat",
+    "price": 360,
+    "discount": 0,
+    "reviewsCount": 65,
+    "rating": 5,
+    "type": "best-seller"
+  },
+  {
+    "id": 6,
+    "title": "Gucci duffle bag",
+    "image_url": "bag",
+    "price": 900,
+    "discount": 0,
+    "reviewsCount": 65,
+    "rating": 4,
+    "type": "best-seller"
+  },
+  {
+    "id": 7,
+    "title": "RGB liquid CPU Cooler",
+    "image_url": "cooler",
+    "price": 120,
+    "discount": 20,
+    "reviewsCount": 300,
+    "rating": 5,
+    "type": "best-seller"
+  },
+  {
+    "id": 8,
+    "title": "Small BookSelf",
+    "image_url": "bookself",
+    "price": 360,
+    "discount": 0,
+    "reviewsCount": 50,
+    "rating": 5,
+    "type": "best-seller"
+  },
+  {
+    "id": 9,
+    "title": "Breed Dry Dog Food",
+    "image_url": "dog-food",
+    "price": 100,
+    "discount": 0,
+    "reviewsCount": 35,
+    "rating": 3,
+    "type": null
+  },
+  {
+    "id": 10,
+    "title": "CANON EOS DSLR Camera",
+    "image_url": "camera",
+    "price": 360,
+    "discount": 0,
+    "reviewsCount": 75,
+    "rating": 4,
+    "type": null
+  },
+  {
+    "id": 11,
+    "title": "ASUS FHD Gaming Laptop",
+    "image_url": "laptop",
+    "price": 700,
+    "discount": 0,
+    "reviewsCount": 325,
+    "rating": 5,
+    "type": null
+  },
+  {
+    "id": 12,
+    "title": "Curology Product Set ",
+    "image_url": "curology",
+    "price": 50,
+    "discount": 0,
+    "reviewsCount": 40,
+    "rating": 4,
+    "type": null
+  },
+  {
+    "id": 17,
+    "title": "Small BookSelf",
+    "image_url": "bookself",
+    "price": 360,
+    "discount": 0,
+    "reviewsCount": 50,
+    "rating": 5,
+    "type": null
+  },
+  {
+    "id": 13,
+    "title": "Kids Electric Car",
+    "image_url": "kids-car",
+    "price": 960,
+    "discount": 0,
+    "reviewsCount": 65,
+    "rating": 5,
+    "type": null,
+    "new": true
+  },
+  {
+    "id": 14,
+    "title": "Jr. Zoom Soccer Cleats",
+    "image_url": "cleats",
+    "price": 1160,
+    "discount": 0,
+    "reviewsCount": 35,
+    "rating": 5,
+    "type": null
+  },
+  {
+    "id": 15,
+    "title": "GP11 Shooter USB Gamepad",
+    "image_url": "gamepad-1",
+    "price": 660,
+    "discount": 0,
+    "reviewsCount": 55,
+    "rating": 4,
+    "type": null,
+    "new": true
+  },
+  {
+    "id": 16,
+    "title": "Quilted Satin Jacket",
+    "image_url": "jacket",
+    "price": 75,
+    "discount": 0,
+    "reviewsCount": 83,
+    "rating": 5,
+    "type": null
+  },
+  {
+    "id": 18,
+    "title": "S-Series Comfort Chair+",
+    "image_url": "chair",
+    "price": 150,
+    "discount": 20,
+    "reviewsCount": 40,
+    "rating": 5,
+    "type": null
+  }
+]
