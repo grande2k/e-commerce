@@ -40,7 +40,7 @@
     .best-sellers {
         padding: 75px 0;
         &__products {
-            @include grid(2, 1.5rem);
+            @include grid(2, 1.25rem 00.75rem);
             grid-gap: 0.75rem;
             @media (min-width: 700px) {
                 grid-template-columns: repeat(3, 1fr);

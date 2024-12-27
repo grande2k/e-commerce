@@ -36,6 +36,8 @@
                     <star-rating :value="product.rating" :max-stars="5"/>
                     ({{ product.reviewsCount }})
                 </div>
+
+                <button class="product__add" @click="addToCart">Add To Cart</button>
             </div>
         </div>
     </article>
@@ -103,12 +105,14 @@
             border-radius: 0.375rem;
             height: 250px;
             overflow: hidden;
-            &:hover {
-                .product__add {
-                    bottom: 0;
-                }
-                .product__image {
-                    transform: translateY(-1rem) scale(1.025);
+            @media (hover: hover) {
+                &:hover {
+                    .product__add {
+                        bottom: 0;
+                    }
+                    .product__image {
+                        transform: translateY(-1rem) scale(1.025);
+                    }
                 }
             }
         }
@@ -195,6 +199,9 @@
                         margin: 0;
                     }
                 }
+            }
+            .product__add {
+                display: none;
             }
         }
         &__title {

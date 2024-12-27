@@ -282,7 +282,7 @@
         }
         .products-grid {
             .swiper-wrapper {
-                @include grid(2, 0.75rem);
+                @include grid(2, 1.25rem 0.75rem);
                 width: 100% !important;
             }
             .swiper-slide {
@@ -330,7 +330,7 @@
                 }
                 &-right {
                     img {
-                        max-width: 160px;
+                        max-width: 180px;
                     }
                 }
             }
@@ -450,9 +450,26 @@
                 display: flex;
                 flex-direction: column;
                 flex: auto;
+                .product__add {
+                    @include flex-center;
+                    position: relative;
+                    bottom: 0;
+                    left: 0;
+                    margin-top: 0.5rem;
+                    border-radius: 0.25rem;
+                    transition: $transition;
+                    border: 1px solid $black;
+                    &:active {
+                        background-color: transparent;
+                        color: $black;
+                    }
+                }
             }
             &__top {
                 height: 180px;
+                .product__add {
+                    display: none;
+                }
             }
             &__image {
                 img {
